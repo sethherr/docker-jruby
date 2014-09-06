@@ -11,7 +11,7 @@ ENV PATH                /usr/local/jruby/bin:/usr/local/$JRE_VERSION/bin:$PATH
 
 
 RUN apt-get update -qq &&\
-    apt-get install -q -y --no-install-recommends git curl ca-certificates build-essential &&\
+    apt-get install -q -y --no-install-recommends git curl ca-certificates build-essential libssl-dev &&\
     curl -# -H "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie"\
     -L $JAVA_URL | tar -xz -C /usr/local &&\
     git clone https://github.com/sstephenson/ruby-build.git /tmp/ruby-build &&\
