@@ -6,6 +6,8 @@ Version tags are based off the installed [JRuby](jruby.org) version
 
 ## Usage
 
+**NOTE: Make sure you grab and build the [docker-java](https://github.com/timelinelabs/docker-java) base image or change the base image to one that includes java!**
+
 Edit the Dockerfile to use the version of JRuby you need. 
 
 Build the container, and tag it with the JRuby version.
