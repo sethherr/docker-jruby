@@ -24,7 +24,7 @@ class TestWordCount < Test::Unit::TestCase
 
   def test_word_count
     count = @good.get.wc('that')
-    assert(@good.success, "Failed to get 200 from gist url")
+    assert(@good.success, "Response: #{@good.resp.code} - #{@good.resp.body.size}")
     assert_equal(7, count, "Found #{count} instead of 7")
   end
 end
