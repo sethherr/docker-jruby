@@ -1,6 +1,6 @@
 # Docker - JRuby
 
-A minimal ubuntu based [Docker](http://www.docker.com) container with [JRuby](http://jruby.org) installed.
+A minimal ubuntu based [Docker](http://www.docker.com) container with [JRuby](http://jruby.org) and [Bundler](http://bundler.io) installed.
 
 Version tags are based off the installed [JRuby](http://jruby.org) version
 
