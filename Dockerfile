@@ -1,5 +1,4 @@
-FROM timelinelabs/java:1.7.0_67
-MAINTAINER Albert Dixon <albert@timelinelabs.com>
+FROM jruby:1.7.18-onbuild
 
 ENV JRUBY_VERSION       jruby-1.7.15
 ENV JRUBY_HOME          /usr/local/jruby
